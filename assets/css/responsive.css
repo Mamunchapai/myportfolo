@@ -1,0 +1,190 @@
+
+
+/* ALL RESPOPNSIVE FORMAT */
+
+
+@media (min-width: px) and (max-width: px) {}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+
+
+
+
+/* ============SMALL DEVICE RESPONSIVE START */
+
+
+
+@media (max-width: 575.88px) {
+
+
+
+
+    /* ______main menu PART_______START________ */
+
+    .main_menu {
+        padding-top: 10px !important;
+        background: rgb(255, 0, 0);
+    }
+    .main_menu img {
+        padding-left: 10px;
+    }
+
+    .main_menu h1 a {
+        margin-left: 15px !important;
+    }
+.main_menu .fa-solid, .fas {
+    font-size: 30px;
+    color:rgb(11, 11, 9);
+}
+.main_menu .navbar-toggler {
+	border: 3px dotted white;
+    margin-right: 10px !important;
+}
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .main_menu ul {
+        text-align: center;
+        gap:10px !important
+    }
+
+    /* ______main menu PART_______end________ */
+
+
+    /* ______BANNER PART_______START________ */
+
+    #banner h1 {
+        margin-top: 25% !important;
+        text-align: left;
+    }
+    #banner p {
+        margin: 13px 0;
+        text-align: end;
+        color:red;
+
+    }
+
+    .my_scele li:nth-child(4)
+    {
+        display: none;
+    }
+
+
+    .my_scele li {
+        margin: 5px 1px !important;
+    }
+
+
+
+    #banner .banner-btn .banner-btn {
+        margin: 20px 0px 0 21px;
+    }
+
+    .curcle {
+        width: 300px;
+        height: 300px;
+        top: -25%;
+        left: -13px;
+    }
+
+    .banner-img {
+        margin: 125px auto 100px;
+        width: 285px;
+        height: 285px;
+    }
+    .banner-img img {
+        padding-right: 22px !important;
+    }
+
+    /* ______BANNER PART_______END________ */
+
+
+    /* ______ education PART_______START________ */
+    #education {
+        padding: 0 0 70px;
+        background: #faf9f9;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    #education .slick-dots {        bottom: -13%;
+        left: 30%;
+    }
+    /* ______ education PART_______end________ */
+
+    /* ______ skills PART_______START________ */
+
+    .skills_left, .count-item-left {
+        height: 90px;
+        width: 90px;
+    }
+
+    .skills_left h3, .count-item-left h1 {
+        line-height: 90px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+    .count-item-left::after, .count-item-right::after {
+        width: 10px;
+        height: 10px;
+    }
+
+    .skills_right, .count-item-right {
+        height: 90px;
+        width: 90px;
+    }
+
+    .skills_right h3, .count-item-right h1 {
+        line-height: 90px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* ______ skills PART_______end________ */
+    /* ______ about PART_______start________ */
+
+
+    #about {
+        padding: 30px 0 60px;
+    }
+
+    .dot_2,
+    .dot_3
+    {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .about_image img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about_text h1 {
+        margin-top: 8% !important;
+    }
+
+    .about_icon img {
+        margin: 20px 05px 24px !important;
+    }
+
+    .about_icon img:nth-child(2) {
+        display: none;
+    }
+
+
+
+
+    /* ______ about PART_______start________ */
+
+
+
+}
